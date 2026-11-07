@@ -1,21 +1,387 @@
 {
- "groups": [
-  {
-   "name": "قنوات عراقية",
-   "channels": [
-    {"name":"Amozhgary TV","sources":[{"u":"https://app-live.org/live/3268334b/index.m3u8"}]},
-    {"name":"AVA Family","sources":[{"u":"https://familyhls.avatv.live/hls/stream.m3u8"}]},
-    {"name":"MBC Iraq","sources":[{"q":"1080p","u":"https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8"}]},
-    {"name":"Mixkurdy","sources":[{"q":"1080p","u":"https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"}]},
-    {"name":"NRT TV","sources":[{"q":"720p","u":"https://media.streambrothers.com:1936/8226/8226/playlist.m3u8"}]},
-    {"name":"Payam TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8"}]},
-    {"name":"Rudaw TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8"}]},
-    {"name":"Samarra TV","sources":[{"u":"https://live.bradosti.net/live/samaraweb_playlist.m3u8"}]},
-    {"name":"Shams TV (Iraq)","sources":[{"q":"1080p","u":"https://stream.shams.tv/hls/stream.m3u8"}]},
-    {"name":"UTV (Iraq)","sources":[{"q":"1080p","u":"https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8"}]},
-    {"name":"Waar TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8"}]},
-    {"name":"Zagros TV (Iraq)","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8"}]}
-   ]
-  }
- ]
+  "groups": [
+    {
+      "name": "قنوات رياضية",
+      "channels": [
+        {
+          "name": "BEIN 1 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/39.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 2 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/41.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 3 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/43.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 4 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/45.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 5 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/46.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 6 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/47.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 7 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/48.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 8 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/49.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 9 SD",
+          "sources": [
+            {
+              "q": "480p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/50.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 1 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/55.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 2 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/57.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 3 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/59.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 4 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/61.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 5 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/62.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 6 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/63.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 7 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/64.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 8 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/65.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 9 LOW",
+          "sources": [
+            {
+              "q": "360p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/66.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 1 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/84.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 2 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/85.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 3 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/86.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 4 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/87.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 5 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/88.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 6 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/89.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 7 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/90.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 8 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/91.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 9 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/92.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 1 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/110.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 2 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/111.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 3 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/112.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 4 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/113.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 5 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/114.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 6 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/115.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 7 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/116.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 8 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/117.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "BEIN 9 4K",
+          "sources": [
+            {
+              "q": "4K",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/118.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 1 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395869.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 2 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395870.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 3 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395871.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 4 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395872.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 5 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395873.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "Alwan Sport 6 HD",
+          "sources": [
+            {
+              "q": "1080p",
+              "u": "http://apk4k.org:80/live/salama01159670700/01159670700ssshhh/395874.m3u8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
