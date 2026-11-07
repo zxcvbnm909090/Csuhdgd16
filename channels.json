@@ -1,0 +1,21 @@
+{
+ "groups": [
+  {
+   "name": "قنوات عراقية",
+   "channels": [
+    {"name":"Amozhgary TV","sources":[{"u":"https://app-live.org/live/3268334b/index.m3u8"}]},
+    {"name":"AVA Family","sources":[{"u":"https://familyhls.avatv.live/hls/stream.m3u8"}]},
+    {"name":"MBC Iraq","sources":[{"q":"1080p","u":"https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8"}]},
+    {"name":"Mixkurdy","sources":[{"q":"1080p","u":"https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"}]},
+    {"name":"NRT TV","sources":[{"q":"720p","u":"https://media.streambrothers.com:1936/8226/8226/playlist.m3u8"}]},
+    {"name":"Payam TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8"}]},
+    {"name":"Rudaw TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8"}]},
+    {"name":"Samarra TV","sources":[{"u":"https://live.bradosti.net/live/samaraweb_playlist.m3u8"}]},
+    {"name":"Shams TV (Iraq)","sources":[{"q":"1080p","u":"https://stream.shams.tv/hls/stream.m3u8"}]},
+    {"name":"UTV (Iraq)","sources":[{"q":"1080p","u":"https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8"}]},
+    {"name":"Waar TV","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8"}]},
+    {"name":"Zagros TV (Iraq)","sources":[{"q":"1080p","u":"https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8"}]}
+   ]
+  }
+ ]
+}
