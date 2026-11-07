@@ -8,7 +8,7 @@ import 'package:video_player/video_player.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 // رابط ملف القنوات (نفس channels.json المستخدم في نسخة HTML). غيّره إلى رابط موقعك.
-const channelsUrl = 'https://mahmoudip.netlify.app/channels.json';
+const channelsUrl = 'https://raw.githubusercontent.com/zxcvbnm909090/Csuhdgd16/main/channels.json';
 
 // ---------- النماذج ----------
 class Source {
