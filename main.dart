@@ -15,7 +15,7 @@ const channelsUrl = 'https://raw.githubusercontent.com/zxcvbnm909090/Csuhdgd16/m
 // unityTestMode = true يعرض إعلانات اختبار فقط. اجعله false عند النشر النهائي.
 const unityGameId = '800428580';
 const unityBannerId = 'BP_Banner_Android';
-const unityTestMode = true;
+const unityTestMode = false;
 
 // ---------- النماذج ----------
 class Source {
