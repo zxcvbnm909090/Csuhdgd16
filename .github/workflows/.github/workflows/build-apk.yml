@@ -21,6 +21,7 @@ jobs:
           channel: stable
           cache: true
 
+      # يسمح برفع main.dart في جذر المستودع بدل مجلد lib (أسهل من الموبايل)
       - name: Place main.dart
         run: |
           if [ -f main.dart ]; then
@@ -28,12 +29,14 @@ jobs:
             cp main.dart lib/main.dart
           fi
 
+      # ينشئ مجلد android تلقائياً دون الحاجة لرفعه
       - name: Generate Android project
         run: |
           flutter create --platforms=android --project-name mahmoud_stream --org com.mahmoud _tmp
           cp -r _tmp/android android
           rm -rf _tmp
 
+      # صلاحية الإنترنت. usesCleartextTraffic يسمح بروابط http؛ احذفه إن كانت كل روابطك https.
       - name: Allow internet access
         run: |
           f=android/app/src/main/AndroidManifest.xml
