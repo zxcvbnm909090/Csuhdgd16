@@ -424,6 +424,41 @@
           "logo": "https://raw.githubusercontent.com/zxcvbnm909090/Csuhdgd16/main/alwan_sport.png"
         }
       ]
+    },
+    {
+      "name": "مصادر IPTV",
+      "channels": [
+        {
+          "name": "Moka Pro - M3U Plus",
+          "sources": [
+            {
+              "q": "M3U Plus Playlist",
+              "u": "http://moka-pro.com:80/get.php?username=623317146569&password=830359595745&type=m3u_plus"
+            }
+          ],
+          "logo": ""
+        },
+        {
+          "name": "Calcioa - M3U Plus 1",
+          "sources": [
+            {
+              "q": "M3U Plus Playlist",
+              "u": "http://calcioa.vip:80/get.php?username=623914137279&password=681617806259&type=m3u_plus"
+            }
+          ],
+          "logo": ""
+        },
+        {
+          "name": "Calcioa - M3U8 Playlist 2",
+          "sources": [
+            {
+              "q": "M3U8 Playlist",
+              "u": "http://calcioa.vip:80/get.php?username=111122223333&password=111122223333&type=m3u_plus&output=m3u8"
+            }
+          ],
+          "logo": ""
+        }
+      ]
     }
   ]
-            }
+        }
