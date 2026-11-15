@@ -426,39 +426,79 @@
       ]
     },
     {
-      "name": "مصادر IPTV",
+      "name": "TOD SPORT IRAQ",
       "channels": [
         {
-          "name": "Moka Pro - M3U Plus",
+          "name": "iptviraq",
           "sources": [
             {
-              "q": "M3U Plus Playlist",
-              "u": "http://moka-pro.com:80/get.php?username=623317146569&password=830359595745&type=m3u_plus"
+              "q": "Auto",
+              "u": "https://imglink.cc/cdn/eaujGpUoeG.mp4"
             }
           ],
-          "logo": ""
+          "logo": "https://imglink.cc/cdn/EH5404q2v6.png"
         },
         {
-          "name": "Calcioa - M3U Plus 1",
+          "name": "TOD 1 iptv iraq",
           "sources": [
             {
-              "q": "M3U Plus Playlist",
-              "u": "http://calcioa.vip:80/get.php?username=623914137279&password=681617806259&type=m3u_plus"
+              "q": "Auto",
+              "u": "https://d12xh5ppj9sxwj.cloudfront.net/tod1/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
             }
           ],
-          "logo": ""
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
         },
         {
-          "name": "Calcioa - M3U8 Playlist 2",
+          "name": "Tod 2 iptv iraq",
           "sources": [
             {
-              "q": "M3U8 Playlist",
-              "u": "http://calcioa.vip:80/get.php?username=111122223333&password=111122223333&type=m3u_plus&output=m3u8"
+              "q": "Auto",
+              "u": "https://stetov1.gen-cdn-akamaizd.sbs/tod2/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
             }
           ],
-          "logo": ""
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
+        },
+        {
+          "name": "Tod 3 iptv iraq",
+          "sources": [
+            {
+              "q": "Auto",
+              "u": "https://stetov2.gen-cdn-akamaizd.sbs/tod3/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
+            }
+          ],
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
+        },
+        {
+          "name": "Tod 4 iptv iraq",
+          "sources": [
+            {
+              "q": "Auto",
+              "u": "https://kitrop2.gen-cdn-akamaizd.sbs/tod4/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
+            }
+          ],
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
+        },
+        {
+          "name": "Tod 5 iptv iraq",
+          "sources": [
+            {
+              "q": "Auto",
+              "u": "https://stetov1.gen-cdn-akamaizd.sbs/tod5/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
+            }
+          ],
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
+        },
+        {
+          "name": "Tod 6 iptv iraq",
+          "sources": [
+            {
+              "q": "Auto",
+              "u": "https://stetov1.gen-cdn-akamaizd.sbs/tod6/tracks-v1a1/mono.json?token=cbc48ec69670a582425030a789adb57a&ip=169.224.7.33"
+            }
+          ],
+          "logo": "https://imglink.cc/cdn/0VlxB9jpWB.png"
         }
       ]
     }
   ]
-        }
+}
